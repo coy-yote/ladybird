@@ -108,7 +108,7 @@ nix develop --command bash
 
 On NixOS or with Nix using your host `nixpkgs` and the legacy `nix-shell` tool:
 ```console
-nix-shell Ladybird
+nix-shell -p ladybird
 
 # With a custom entrypoint, for example your favorite shell
 nix-shell --command bash Ladybird
